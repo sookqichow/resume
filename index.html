@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Resume</title>
+
+    <script>
+        function sideMenu() {
+            var x = document.getElementById("idsidebar");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "")
+            }
+        }
+
+    </script>
+
+    <style type="text/css">
+        body {
+            max-width: 1024px;
+            margin: auto
+        }
+
+        .responsive {
+            width: 100%;
+            height: auto;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-bar w3-indigo">
+        <a href="#profile" class="w3-bar-item w3-button w3-hide-small w3-right">Profile</a>
+        <a href="#educations" class="w3-bar-item w3-button w3-hide-small w3-right">Educations</a>
+        <a href="#experiences" class="w3-bar-item w3-button w3-hide-small w3-right">Experiences</a>
+        <a href="#extra_Curricular" class="w3-bar-item w3-button w3-hide-small w3-right">Extra-Curricular</a>
+        <a href="#skills_&_Interests" class="w3-bar-item w3-button w3-hide-small w3-right">Skills & Interests</a>
+        <a href="javascript:void(0)" onclick="sideMenu()"
+            class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium">&#9776</a>
+    </div>
+    <!--side menu-->
+    <div id="idsidebar" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium">
+        <a href="#profile" class="w3-bar-item w3-button w3-left">Profile</a>
+        <a href="#educations" class="w3-bar-item w3-button w3-left">Educations</a>
+        <a href="#experiences" class="w3-bar-item w3-button w3-left">Experiences</a>
+        <a href="#extra_Curricular" class="w3-bar-item w3-button w3-left">Extra-Curricular</a>
+        <a href="#skills_&_Interests" class="w3-bar-item w3-button w3-left">Skills & Interests</a>
+    </div>
+    <!--Menu bar-->
+
+    <header class="w3-header w3-container w3-padding-32 w3-center">
+        <img src="banner.png" class="responsive">
+    </header>
+    <!--Header-->
+
+    <div id="profile" class="w3-container w3-row w3-light-grey w3-padding-32">
+        <div class="w3-container w3-third w3-center">
+            <img src="sookqi.jpg" style="height:250px;background-size: cover;border: 1px solid indigo;">
+        </div>
+        <div class="w3-container w3-twothird">
+            <p>Attentive, diligent person. Second year information technology student at University Utara Malaysia
+                (UUM). Seeking a chance to internship on the field related to my course during my semester break to
+                equip myself with more professional knowledge in IT. I will always provide fully commitment on
+                accomplish the task with my passion.</p>
+        </div>
+    </div>
+    <!--profile-->
+
+    <div id="educations" class="w3-container w3-row w3-indigo w3-padding-32">
+        <div class="w3-container w3-twothird">
+            <ul>
+                <li><b>University Utara Malaysia(Oct 2020 - Jan 2024)</b><br>Bachelor of Science with Honors(IT)</li>
+                <li><b>SMK Menglembu(May 2018 - Nov 2019)</b><br>STPM, Art Stream<br>CGPA 3.33 | Muet Band 4</li>
+            </ul>
+        </div>
+        <div class="w3-container w3-third w3-center">
+            <img class="mySlides w3-auto" src="uum.png" style="height:200px;max-width:250px;border: 1px solid indigo;">
+            <img class="mySlides w3-auto" src="smkmenglembu.jpeg"
+                style="height:200px; max-width:250px;border: 1px solid indigo;">
+        </div>
+    </div>
+    <!--educations-->
+
+    <div id="experiences" class="w3-container w3-row w3-light-grey w3-padding-32">
+        <div class="w3-container w3-third w3-center w3-auto">
+            <img class="mySlides1 w3-auto" src="gongcha.jpeg"
+                style="max-height:200px;max-width:250px;border: 1px solid indigo;">
+            <img class="mySlides1 w3-auto" src="diyminihotpot.jpeg"
+                style="max-height:200px;max-width:250px;border: 1px solid indigo;">
+            <img class="mySlides1 w3-auto" src="celcom.jpeg"
+                style="max-height:200px; max-width:250px;border: 1px solid indigo;">
+        </div>
+        <div class="w3-container w3-twothird ">
+            <ul style="list-style-type: none;">
+                <li><b>Gong Cha - Singapore</b><br>Tearista(Dec 2019- July 2020)</li>
+                <ul>
+                    <li>Worked as second PIC in the branch of Gong Cha</li>
+                    <li>Led up to 15 part-timers</li>
+                    <li>Assigned job of housekeeping of worker in branch</li>
+                    <li>In charged of stock taking, stock ordering and sales report</li>
+                    <li>Resolved customer and worker problem</li>
+                </ul>
+                <li><b>DIY Mini Hotpot - Ipoh,Perak</b><br>Waitress(Dec 2017- Sep 2018)</li>
+                <li><b>Celcom - Ipoh,Perak</b><br>Sales Assistant(Aug 2016- Dec 2016)</li>
+            </ul>
+        </div>
+    </div>
+    <!--experiences-->
+
+    <div id="extra_Curricular" class="w3-container w3-row w3-indigo w3-padding-32">
+        <div class="w3-cards w3-third w3-center">
+            <img class="w3-auto" src="UYC.png" style="height:200px;width:250px;border: 1px solid white;">
+            <div class="w3-container w3-padding-16 ">
+                <h4 style="font-weight:bold">UUM Youth Consulting</h4>
+                <p>Associate of Talent Management<br>(Nov 2020 - Present)</p>
+            </div>
+
+        </div>
+        <div class="w3-cards w3-third w3-center">
+            <img class="w3-auto" src="GDSC.png" style="height:200px;width:250px;border: 1px solid white;">
+            <div class="w3-container w3-padding-16 ">
+                <h4 style="font-weight:bold">Google Developer Student Clubs</h4>
+                <p>Treasurer(Nov
+                    2021-Present)<br>Associate of Tech Team<br>(Oct 2020-Oct 2021)</p>
+            </div>
+        </div>
+
+        <div class="w3-cards w3-third w3-center">
+            <img class="w3-auto" src="volleyball.png" style="height:200px;width:250px;border: 1px solid white;">
+            <div class="w3-container w3-padding-16 ">
+                <h4 style="font-weight:bold">Volley Ball Club</h4>
+                <p>Assistant Secretary<br>(May 2018 - Nov 2019)</p>
+            </div>
+        </div>
+    </div>
+    <!--extra-curricular-->
+
+    <div id="skills_&_Interests" class="w3-container w3-row w3-light-grey w3-padding-32">
+        <div class="w3-container w3-third w3-center">
+            <h2 style="font-weight:bold">Skills & Interest</h2>
+        </div>
+        <div class="w3-container w3-twothird">
+            <ul style="list-style-type: none;">
+                <li>Languages: Chinese(Native), English(Fluent), Malay(Fluent), Cantonese(Native)</li>
+                <li>Skills: Microsoft Office, Photoshop, Programming languages( Java, JavaScript, Kotlin)</li>
+                <li>Interest: Sport-related(Volley ball, badminton), Hand Crafting, Cooking, Movie</li>
+            </ul>
+        </div>
+    </div>
+    <!--skills & interests-->
+
+    <script>
+        var myIndex = 0, myIndex1 = 0;
+        carousel();
+        function carousel() {
+            var i, j;
+            var x = document.getElementsByClassName("mySlides");
+            var y = document.getElementsByClassName("mySlides1");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            for (j = 0; j < y.length; j++) {
+                y[j].style.display = "none";
+            }
+            myIndex1++;
+            if (myIndex1 > y.length) {
+                myIndex1 = 1
+            }
+            y[myIndex1 - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+    </script>
+    <!--automatic slideshow javascript-->
+    <footer>
+        <p class="w3-center">Copyright sookqichow&copy;</p>
+    </footer>
+    <!--footer-->
+</body>
+
+</html>
